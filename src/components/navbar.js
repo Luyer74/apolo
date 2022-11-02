@@ -25,13 +25,7 @@ const LinkItem = ({ href, children }) => {
 
 const NavBar = () => {
   return (
-    <Box
-      position="fixed"
-      as="nav"
-      w="100%"
-      css={{ backdropFilter: 'blur(10px)' }}
-      zIndex={1}
-    >
+    <Box position="fixed" as="nav" w="100%" zIndex={1} bg="white" mt={-2}>
       <Container
         display="flex"
         p={3}
@@ -41,9 +35,11 @@ const NavBar = () => {
         justifyContent="space-between"
       >
         <Flex align="center" mt={1} mr={5}>
-          <Heading size="lg" letterSpacing="normal">
-            APOLO
-          </Heading>
+          <NavLink to="/">
+            <Heading size="lg" letterSpacing="normal">
+              APOLO
+            </Heading>
+          </NavLink>
         </Flex>
         <Stack
           direction={{ base: 'column', md: 'row' }}
