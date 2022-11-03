@@ -30,7 +30,8 @@ export default function Hero() {
           align={'flex-start'}
           spacing={6}
           position="relative"
-          left="100px"
+          left={useBreakpointValue({ base: '0px', md: '100px' })}
+          marginX={useBreakpointValue({ base: '10px', md: '0px' })}
         >
           <Heading
             color={'white'}

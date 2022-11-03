@@ -7,31 +7,6 @@ function App() {
   return (
     <ChakraProvider theme={theme}>
       <MainRouter></MainRouter>
-      <Text>owo</Text>
-      <Text>owo</Text>
-      <Text>owo</Text>
-      <Text>owo</Text>
-      <Text>owo</Text>
-      <Text>owo</Text>
-      <Text>owo</Text>
-      <Text>owo</Text>
-      <Text>owo</Text>
-      <Text>owo</Text>
-      <Text>owo</Text>
-      <Text>owo</Text>
-      <Text>owo</Text>
-      <Text>owo</Text>
-      <Text>owo</Text>
-      <Text>owo</Text>
-      <Text>owo</Text>
-      <Text>owo</Text>
-      <Text>owo</Text>
-      <Text>owo</Text>
-      <Text>owo</Text>
-      <Text>owo</Text>
-      <Text>owo</Text>
-      <Text>owo</Text>
-      <Text>owo</Text>
     </ChakraProvider>
   );
 }

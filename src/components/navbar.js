@@ -25,7 +25,7 @@ const LinkItem = ({ href, children }) => {
 
 const NavBar = () => {
   return (
-    <Box position="fixed" as="nav" w="100%" zIndex={1} bg="white" mt={-2}>
+    <Box position="fixed" as="nav" w="100%" zIndex={1} bg="white" mt={-1}>
       <Container
         display="flex"
         p={3}

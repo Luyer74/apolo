@@ -1,8 +1,9 @@
 import React from 'react';
 import { Text, Heading } from '@chakra-ui/react';
+import Hero from '../components/home/hero';
 
 const Paquetes = () => {
-  return <Heading>awa</Heading>;
+  return <Text>Paquetes</Text>;
 };
 
 export default Paquetes;
