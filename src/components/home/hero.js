@@ -47,7 +47,7 @@ export default function Hero() {
             Nuestras redes manejan las cargas más pesadas a la mejor velocidad.
           </Text>
           <Stack direction={'row'}>
-            <Button bg="color3" rounded={'full'} color={'white'}>
+            <Button bg="color3" rounded={'full'} color={'white'} boxShadow="lg">
               Paquetes Disponibles
             </Button>
           </Stack>

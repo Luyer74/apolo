@@ -7,6 +7,7 @@ import Paquetes from '../pages/paquetes';
 import Personaliza from '../pages/personaliza';
 import Contacto from '../pages/contacto';
 import NavBar from '../components/navbar';
+import Footer from '../components/footer';
 
 const MainRouter = () => {
   return (
@@ -23,6 +24,7 @@ const MainRouter = () => {
           <Route path="/nosotros" element={<Nosotros></Nosotros>}></Route>
           <Route path="/contacto" element={<Contacto></Contacto>}></Route>
         </Routes>
+        <Footer></Footer>
       </Router>
     </Box>
   );

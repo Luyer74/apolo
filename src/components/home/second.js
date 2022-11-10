@@ -20,6 +20,7 @@ const Second = () => {
               borderRadius="xl"
               height={{ base: '300px', lg: '400px' }}
               margin="auto"
+              objectFit={'cover'}
             ></Image>
           </Box>
           <Box>

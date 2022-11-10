@@ -14,6 +14,7 @@ import {
   IconButton,
 } from '@chakra-ui/react';
 import { NavLink } from 'react-router-dom';
+import { HamburgerIcon } from '@chakra-ui/icons';
 
 const LinkItem = ({ href, children }) => {
   return (
@@ -55,6 +56,38 @@ const NavBar = () => {
           <LinkItem href="/nosotros">Nosotros</LinkItem>
           <LinkItem href="/contacto">Contacto</LinkItem>
         </Stack>
+
+        <Box
+          flex={1}
+          align="right"
+          display={{ base: 'inline-block', md: 'none' }}
+        >
+          <Box ml={2}>
+            <Menu>
+              <MenuButton
+                as={IconButton}
+                icon={<HamburgerIcon />}
+                variant="outline"
+                aria-label="Options"
+                mt={1}
+              ></MenuButton>
+              <MenuList>
+                <Link to="/paquetes" as={NavLink} passHref>
+                  <MenuItem as={Link}>Paquetes</MenuItem>
+                </Link>
+                <Link to="/personaliza" as={NavLink} passHref>
+                  <MenuItem as={Link}>Personaliza</MenuItem>
+                </Link>
+                <Link to="/nosotros" as={NavLink} passHref>
+                  <MenuItem as={Link}>Nosotros</MenuItem>
+                </Link>
+                <Link to="/contacto" as={NavLink} passHref>
+                  <MenuItem as={Link}>Contacto</MenuItem>
+                </Link>
+              </MenuList>
+            </Menu>
+          </Box>
+        </Box>
       </Container>
     </Box>
   );
