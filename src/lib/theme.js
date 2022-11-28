@@ -21,7 +21,7 @@ const config = {
 };
 
 const fonts = {
-  heading: "'montserrat', 'sans-serif'",
+  heading: `'Righteous', 'sans-serif'`,
   body: "'Nunito', 'sans-serif'",
 };
 

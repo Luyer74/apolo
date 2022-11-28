@@ -2,7 +2,7 @@ import { ColorModeScript } from '@chakra-ui/react';
 import React, { StrictMode } from 'react';
 import * as ReactDOM from 'react-dom/client';
 import App from './App';
-import '@fontsource/montserrat';
+import '@fontsource/righteous';
 import '@fontsource/nunito';
 import theme from './lib/theme';
 

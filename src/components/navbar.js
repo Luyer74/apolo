@@ -37,8 +37,8 @@ const NavBar = () => {
       >
         <Flex align="center" mt={1} mr={5}>
           <NavLink to="/">
-            <Heading size="lg" letterSpacing="normal">
-              APOLO
+            <Heading size="lg" letterSpacing="wider">
+              WIGO
             </Heading>
           </NavLink>
         </Flex>

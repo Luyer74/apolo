@@ -1,0 +1,151 @@
+[
+  {
+    "Paquete": "Internet Satelital",
+    "Informacion": [
+      {
+        "Subida": 10,
+        "Bajada": 100,
+        "Metodo": "Satelite",
+        "TiempoInstalacion": "2-4 horas",
+        "Precio": 6990.0
+      },
+      {
+        "Subida": 20,
+        "Bajada": 100,
+        "Metodo": "Satelite",
+        "TiempoInstalacion": "2-4 horas",
+        "Precio": 7990.0
+      },
+      {
+        "Subida": 30,
+        "Bajada": 100,
+        "Metodo": "Portobella + Bonding",
+        "TiempoInstalacion": "4-6 horas",
+        "Precio": 10900.0
+      },
+      {
+        "Subida": 50,
+        "Bajada": 100,
+        "Metodo": "Portobella + Bonding",
+        "TiempoInstalacion": "4-6 horas",
+        "Precio": 12990.0
+      },
+      {
+        "Subida": 80,
+        "Bajada": 100,
+        "Metodo": "Portobella + Bonding",
+        "TiempoInstalacion": "4-6 horas",
+        "Precio": 20277.0
+      },
+      {
+        "Subida": 100,
+        "Bajada": 100,
+        "Metodo": "Portobella + Bonding",
+        "TiempoInstalacion": "4-6 horas",
+        "Precio": 29590.0
+      }
+    ]
+  },
+  {
+    "Paquete": "Internet Movil",
+    "Informacion": [
+      {
+        "Subida": 10,
+        "Bajada": 50,
+        "Metodo": "LinkPro + Bonding",
+        "TiempoInstalacion": "1 hora",
+        "Precio": 1000.0
+      },
+      {
+        "Subida": 20,
+        "Bajada": 50,
+        "Metodo": "LinkPro + Bonding",
+        "TiempoInstalacion": "1 hora",
+        "Precio": 1000.0
+      },
+      {
+        "Subida": 30,
+        "Bajada": 50,
+        "Metodo": "LinkPro + Bonding",
+        "TiempoInstalacion": "1 hora",
+        "Precio": 1000.0
+      },
+      {
+        "Subida": 50,
+        "Bajada": 50,
+        "Metodo": "LinkPro + Bonding",
+        "TiempoInstalacion": "1 hora",
+        "Precio": 1000.0
+      }
+    ]
+  },
+  {
+    "Paquete": "Internet Punto a Punto",
+    "Informacion": [
+      {
+        "Subida": 10,
+        "Bajada": 100,
+        "Metodo": "P2P",
+        "TiempoInstalacion": "3 dias habiles",
+        "Precio1": 6990,
+        "Precio2": 3495
+      },
+      {
+        "Subida": 20,
+        "Bajada": 100,
+        "Metodo": "P2P",
+        "TiempoInstalacion": "3 dias habiles",
+        "Precio1": 7990,
+        "Precio2": 3995
+      },
+      {
+        "Subida": 30,
+        "Bajada": 100,
+        "Metodo": "P2P",
+        "TiempoInstalacion": "3 dias habiles",
+        "Precio1": 10900,
+        "Precio2": 5450
+      },
+      {
+        "Subida": 50,
+        "Bajada": 100,
+        "Metodo": "P2P",
+        "TiempoInstalacion": "3 dias habiles",
+        "Precio1": 12990,
+        "Precio2": 6495
+      },
+      {
+        "Subida": 80,
+        "Bajada": 100,
+        "Metodo": "P2P",
+        "TiempoInstalacion": "3 dias habiles",
+        "Precio1": 20277,
+        "Precio2": 10138.5
+      },
+      {
+        "Subida": 100,
+        "Bajada": 100,
+        "Metodo": "P2P",
+        "TiempoInstalacion": "3 dias habiles",
+        "Precio1": 29590,
+        "Precio2": 14795
+      },
+      {
+        "Subida": 200,
+        "Bajada": 200,
+        "Metodo": "P2P",
+        "TiempoInstalacion": "3 dias habiles",
+        "Precio1": 38456,
+        "Precio2": 19228
+      },
+      {
+        "Subida": 500,
+        "Bajada": 500,
+        "Metodo": "P2P",
+        "TiempoInstalacion": "3 dias habiles",
+        "Precio1": 42877,
+        "Precio2": 21438.5
+      }
+    ]
+  }
+]
