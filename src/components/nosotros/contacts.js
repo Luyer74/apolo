@@ -11,7 +11,7 @@ const Contacts = () => {
        Para mas informacion, contactanos!
       </Heading>
       <Box p={10}>
-        <SimpleGrid columns={[1, 1, 2, 4]} gap={12}>
+        <SimpleGrid columns={[1, 1, 2, 2]} gap={6}>
           <Card cardIcon={BsPhone}>Telefono de la empresa: 8180277078</Card>
           <Card cardIcon={AiOutlineMail}>Correo: panoramamty@gmail.com</Card>
         </SimpleGrid>
