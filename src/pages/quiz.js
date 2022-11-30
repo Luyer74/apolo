@@ -11,12 +11,13 @@ const Quiz = () => {
     autoScroll={true}
     onResult={() => alert("Results sent to owner!")}
     onAnswerSelection={(questionIndex, answerIndex, resultID ) =>
-      console.log({
+      console.log(JSON.stringify({
         questionIndex,
         answerIndex,
         resultID,
-      })
+      }))
     }
+    
 
     questions={[
       {
