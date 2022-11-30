@@ -9,7 +9,8 @@ const Quiz = () => {
     description={"Si no esta seguro de que paquete elegir, este quiz le facilitara la opcion!"}
     generalBackgroundColor={"#2A2D34"}
     autoScroll={true}
-    onAnswerSelection={(questionIndex, answerIndex, resultID) =>
+    onResult={() => alert("Results sent to owner!")}
+    onAnswerSelection={(questionIndex, answerIndex, resultID ) =>
       console.log({
         questionIndex,
         answerIndex,
@@ -60,16 +61,13 @@ const Quiz = () => {
           {
             answer: "Satellite o Portobella + Bonding",
             resultID: 0,
-            resultID: 0,
           },
           {
             answer: "LinkPro + Bonding",
             resultID: 1,
-            resultID: 1,
           },
           {
             answer: "PTP",
-            resultID: 2,
             resultID: 2,
           },
         ],
@@ -81,7 +79,6 @@ const Quiz = () => {
           {
             answer: "2-6 Horas",
             resultID: 0,
-            resultID: 1,
           },
           {
             answer: "1 Hora",
@@ -90,8 +87,6 @@ const Quiz = () => {
           {
             answer: "3 Dias habiles",
             resultID: 2,
-            resultID: 0,
-            resultID: 1,
           },
         ],
       },
