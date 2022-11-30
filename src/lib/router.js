@@ -5,6 +5,7 @@ import Home from '../pages/home';
 import Nosotros from '../pages/nosotros';
 import Paquetes from '../pages/paquetes';
 import Personaliza from '../pages/personaliza';
+import Quiz from '../pages/quiz';
 import Contacto from '../pages/contacto';
 import NavBar from '../components/navbar';
 import Footer from '../components/footer';
@@ -17,10 +18,8 @@ const MainRouter = () => {
         <Routes>
           <Route path="/" element={<Home></Home>}></Route>
           <Route path="/paquetes" element={<Paquetes></Paquetes>}></Route>
-          <Route
-            path="/personaliza"
-            element={<Personaliza></Personaliza>}
-          ></Route>
+          <Route path="/personaliza" element={<Personaliza></Personaliza>}></Route>
+          <Route path="/quiz" element={<Quiz></Quiz>}></Route>
           <Route path="/nosotros" element={<Nosotros></Nosotros>}></Route>
           <Route path="/contacto" element={<Contacto></Contacto>}></Route>
         </Routes>

@@ -53,6 +53,7 @@ const NavBar = () => {
         >
           <LinkItem href="/paquetes">Paquetes</LinkItem>
           <LinkItem href="/personaliza">Personaliza</LinkItem>
+          <LinkItem href="/quiz">Quiz</LinkItem>
           <LinkItem href="/nosotros">Nosotros</LinkItem>
           <LinkItem href="/contacto">Contacto</LinkItem>
         </Stack>
@@ -77,6 +78,9 @@ const NavBar = () => {
                 </Link>
                 <Link to="/personaliza" as={NavLink} passHref>
                   <MenuItem as={Link}>Personaliza</MenuItem>
+                </Link>
+                <Link to="/quiz" as={NavLink} passHref>
+                  <MenuItem as={Link}>Quiz</MenuItem>
                 </Link>
                 <Link to="/nosotros" as={NavLink} passHref>
                   <MenuItem as={Link}>Nosotros</MenuItem>
