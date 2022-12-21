@@ -13,5 +13,5 @@ const paqueteSchema = mongoose.Schema({
   ],
 });
 
-const Plans = mongoose.model('Plans', paqueteSchema, 'Plans');
+const Plans = mongoose.model('Projects', paqueteSchema, 'Projects');
 module.exports = Plans;

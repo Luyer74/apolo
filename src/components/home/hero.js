@@ -5,9 +5,11 @@ import {
   Heading,
   VStack,
   Text,
+  Link,
   useBreakpointValue,
 } from '@chakra-ui/react';
 import React from 'react';
+import { Link as ReactLink } from 'react-router-dom';
 
 export default function Hero() {
   return (
@@ -48,7 +50,9 @@ export default function Hero() {
           </Text>
           <Stack direction={'row'}>
             <Button bg="color3" rounded={'full'} color={'white'} boxShadow="lg">
-              Paquetes Disponibles
+              <Link as={ReactLink} to="/paquetes">
+                Paquetes Disponibles
+              </Link>
             </Button>
           </Stack>
         </Stack>

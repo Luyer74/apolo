@@ -1,5 +1,6 @@
 import React from 'react';
-import { Box, Heading, Button } from '@chakra-ui/react';
+import { Box, Heading, Button, Link } from '@chakra-ui/react';
+import { Link as ReactLink } from 'react-router-dom';
 
 const CTA = () => {
   return (
@@ -12,7 +13,9 @@ const CTA = () => {
         mt={'30px'}
         boxShadow="lg"
       >
-        Cotiza Ahora
+        <Link as={ReactLink} to="/personaliza">
+          Cotiza Ahora
+        </Link>
       </Button>
     </Box>
   );

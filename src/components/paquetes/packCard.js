@@ -13,6 +13,7 @@ const PackageCard = ({ children, cardIcon, packageData, noButton }) => {
           background: '#565859',
         }
       }
+      transition="All 0.3s ease-in-out"
     >
       <Icon as={cardIcon} color="color2" boxSize={100} mt={5} mb={5}></Icon>
       <Heading color="white" fontSize={'32px'} mb={'20px'}>
