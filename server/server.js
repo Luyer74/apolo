@@ -8,12 +8,16 @@ mongoose
   )
   .then(() => console.log('Connected to db'));
 
-mongoose.set('debug', true);
 const Paquete = require('./models/paquete.model');
 
 const cors = require('cors');
 
-app.use(cors());
+app.use(
+  cors({
+    origin: ['http://localhost:3000', 'https://wigo-app.onrender.com'],
+    credentials: true,
+  })
+);
 
 app.get('/api/paquetes', async (req, res) => {
   allPaquetes = await Paquete.find();

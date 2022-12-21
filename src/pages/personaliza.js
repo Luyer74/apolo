@@ -26,7 +26,7 @@ const Personaliza = () => {
   };
   useEffect(() => {
     const loadData = () => {
-      fetch('http://localhost:5005/api/paquetes')
+      fetch('https://wigo-api.onrender.com/api/paquetes')
         .then(res => res.json())
         .then(allPaquetes => setData(allPaquetes));
     };
